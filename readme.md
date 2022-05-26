@@ -1,6 +1,8 @@
-This is tested on Windows computer
+This is tested on Windows computer in PowerShell (hence - PS)
 
 ```
 PS cd src
-python -m unittest
+PS python -m unittest
 ```
+
+example with UI test only in branch `e2e`
