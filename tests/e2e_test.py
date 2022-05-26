@@ -46,7 +46,7 @@ class TestStringMethods(unittest.TestCase):
         self.driver.close()
 
     def type_into_input(self, locator, text):
-        duration_field = self.driver.find_element_by_id()
+        duration_field = self.driver.find_element_by_id(locator)
         duration_field.send_keys(text)
     
     def click_on_the_element(self, locator):
