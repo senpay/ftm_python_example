@@ -41,6 +41,7 @@ class TestStringMethods(unittest.TestCase):
         self.driver = webdriver.Firefox()
         self.driver.get(URL)
         self.driver.maximize_window()
+        
 
     def tearDown(self):
         self.driver.close()
